@@ -701,7 +701,7 @@ classdef spotprog
                 pobj = 0;
             end
             if nargin < 3,
-                solver = @spot_sedumi;
+                solver = @spot_mosek;
             end
             if nargin < 4,
                 options = spotprog.defaultOptions;
